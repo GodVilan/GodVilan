@@ -19,7 +19,7 @@ profile = {
     "role"         : "ML Engineer / Data Scientist",
     "education"    : "M.S. Data Science & AI — University of Central Missouri",
     "gpa"          : 4.0,
-    "location"     : "Warrensburg, MO, USA",
+    "location"     : "United States",
     "open_to_work" : True,
     "available"    : "Immediately",
     "interests"    : ["RAG Pipelines", "LLMs", "MLOps", "Deep Learning"],
