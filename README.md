@@ -156,6 +156,7 @@ SARIMAX vs Prophet vs XGBoost on 3,300+ records. **Holdout MAE 138.14 ≈ CV MAE
 
 | Award | Details |
 |---|---|
+| 🥇 **Graduate Student Achievement Award** | University of Central Missouri |
 | 🥇 **Global Rank 1** | CodeChef May Long Two — Division 4 Rated |
 | 🏆 **National Finalist** | IICC Coding Competition — Top 1% of 100,000+ participants |
 | 🥉 **Bronze Medal** | Ranked Top 3 in B.Tech Academic Program |
