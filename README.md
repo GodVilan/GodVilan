@@ -4,6 +4,7 @@
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-srikanthreddynandireddy.me-00d4ff?style=for-the-badge&logo=google-chrome&logoColor=white)](https://srikanthreddynandireddy.me)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/srikanth-reddy-nandireddy)
+[![Medium](https://img.shields.io/badge/Medium-Follow-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://srikanth2314.medium.com/)
 [![Email](https://img.shields.io/badge/Email-Hire%20Me-00e5a0?style=for-the-badge&logo=gmail&logoColor=white)](mailto:srikanthreddynandireddy@gmail.com)
 [![Status](https://img.shields.io/badge/Status-Open%20to%20Work-00e5a0?style=for-the-badge&logoColor=white)](https://srikanthreddynandireddy.me#contact)
 
@@ -24,6 +25,7 @@ profile = {
     "available"    : "Immediately",
     "interests"    : ["RAG Pipelines", "LLMs", "MLOps", "Deep Learning"],
     "portfolio"    : "https://srikanthreddynandireddy.me",
+    "medium"       : "https://srikanth2314.medium.com/",
     "codechef"     : "Global Rank #1 (May Long Two)",
     "gfg_streak"   : "255 consecutive days",
 }
@@ -183,6 +185,7 @@ I'm actively seeking **full-time & internship roles** in Data Science, ML Engine
 
 [![Portfolio](https://img.shields.io/badge/🌐%20Portfolio-srikanthreddynandireddy.me-00d4ff?style=for-the-badge)](https://srikanthreddynandireddy.me)
 [![LinkedIn](https://img.shields.io/badge/💼%20LinkedIn-Connect-0077B5?style=for-the-badge)](https://www.linkedin.com/in/srikanth-reddy-nandireddy)
+[![Medium](https://img.shields.io/badge/✍️%20Medium-Read%20Articles-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://srikanth2314.medium.com/)
 [![Email](https://img.shields.io/badge/✉️%20Email-srikanthreddynandireddy@gmail.com-00e5a0?style=for-the-badge)](mailto:srikanthreddynandireddy@gmail.com)
 
 </div>
