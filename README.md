@@ -42,7 +42,7 @@ I don't just build models — I **ship ML systems**. My work spans production RA
 <td width="50%">
 
 ### 🔍 arXiv RAG System
-Semantic Q&A over 120 arXiv ML papers. BGE achieves **MRR 1.000** — 7.7× Answer Relevance over BM25.
+Semantic Q&A over 150 arXiv ML papers. BGE achieves **MRR 0.990** — 7.3× Answer Relevance over BM25.
 
 `FAISS` `BGE` `Gemini 2.5` `BM25` `Streamlit`
 
