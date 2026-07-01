@@ -192,6 +192,11 @@ BERT + Wav2Vec2 + ViT cross-modal **Transformer fusion** (4 layers, 8 heads). **
 | **M.S. Data Science & AI** *(2024–2026)* | University of Central Missouri | **4.0 / 4.0** |
 | **B.Tech CSE (Hons.)** *(2020–2024)* | CMR College of Engineering & Technology | **9.06 / 10.0** |
 
+## 🎖️ Verified Certifications
+
+<!--START_SECTION:badges-->
+<!--END_SECTION:badges-->
+
 **Certifications:** Microsoft Applied Skills — Developing Agents in Microsoft Foundry · Anthropic — Model Context Protocol · Anthropic — AI Fluency · AWS Academy — Data Analytics & Cloud Foundations · Google Data Analytics
 
 ---
