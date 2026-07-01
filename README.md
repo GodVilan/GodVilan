@@ -199,6 +199,9 @@ BERT + Wav2Vec2 + ViT cross-modal **Transformer fusion** (4 layers, 8 heads). **
 ## 🎖️ Verified Badges
 
 <!--START_SECTION:badges-->
+[![AI Skills Fest 2026](https://images.credly.com/size/80x80/images/082c8d0c-5232-4597-b6c4-6bebcc4f3046/blob)](https://www.credly.com/badges/775304f3-1c70-41c2-b7cb-a4d9f0d92406)
+[![AWS Academy Graduate - AWS Academy Data Analytics](https://images.credly.com/size/80x80/images/4a489a8c-0b2d-40ee-a839-afa55b44208d/image.png)](https://www.credly.com/badges/2d5d029b-ac6b-48df-9420-170649c50729)
+[![AWS Academy Graduate - Cloud Foundations - Training Badge](https://images.credly.com/size/80x80/images/e3541a0c-dd4a-4820-8052-5001006efc85/blob)](https://www.credly.com/badges/00efbea6-a4ef-4016-87ed-23f91335b94b)
 <!--END_SECTION:badges-->
 
 ---
