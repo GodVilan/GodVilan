@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Srikanth%20Reddy%20Nandireddy&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32&desc=ML%20Engineer%20%C2%B7%20Data%20Scientist%20%C2%B7%20Applied%20AI&descAlignY=55&descSize=18" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Srikanth%20Reddy%20Nandireddy&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32&desc=Applied%20AI%20%2F%20LLM%20Engineer%20%C2%B7%20Multi-Agent%20Systems%20%C2%B7%20MLOps&descAlignY=55&descSize=18" width="100%"/>
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-srikanthreddynandireddy.me-00d4ff?style=for-the-badge&logo=google-chrome&logoColor=white)](https://srikanthreddynandireddy.me)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/srikanth-reddy-nandireddy)
@@ -17,21 +17,23 @@
 ```python
 profile = {
     "name"         : "Srikanth Reddy Nandireddy",
-    "role"         : "ML Engineer / Data Scientist",
+    "role"         : "Applied AI / LLM Engineer",
     "education"    : "M.S. Data Science & AI — University of Central Missouri",
     "gpa"          : 4.0,
     "location"     : "United States",
     "open_to_work" : True,
     "available"    : "Immediately",
-    "interests"    : ["RAG Pipelines", "LLMs", "MLOps", "Deep Learning"],
+    "focus"        : ["Multi-Agent Orchestration", "LLM/RAG Systems", "MLOps"],
+    "frameworks"   : ["Microsoft Agent Framework", "MCP", "ReAct", "FastAPI"],
+    "recent_win"   : "HackerRank Orchestrate — 16 / 1,773 (Top 1%)",
     "portfolio"    : "https://srikanthreddynandireddy.me",
-    "medium"       : "https://srikanth2314.medium.com/",
-    "codechef"     : "Global Rank #1 (May Long Two)",
     "gfg_streak"   : "255 consecutive days",
 }
 ```
 
-I don't just build models — I **ship ML systems**. My work spans production RAG pipelines, multimodal deep learning, MLOps automation on AWS, and real-time inference APIs you can actually hit with a curl command.
+I build **agentic AI systems that ship** — multi-agent pipelines with Critic/Verifier
+loops, MCP-grounded retrieval, layout-aware RAG, and the MLOps automation that takes them
+from notebook to a live `/predict` endpoint you can hit with `curl`.
 
 ---
 
@@ -41,20 +43,43 @@ I don't just build models — I **ship ML systems**. My work spans production RA
 <tr>
 <td width="50%">
 
-### 🔍 arXiv RAG System
-Semantic Q&A over 150 arXiv ML papers. BGE achieves **MRR 0.990** — 7.3× Answer Relevance over BM25.
+### 🧠 TalentFabric AI
+**5-agent** Microsoft Agent Framework system — Planner-Executor + **Critic/Verifier loop-back** that flips *Not Ready → Ready*, MCP-grounded citations, all three Microsoft IQ layers. **1.0 readiness/risk accuracy** on the ground-truth set.
 
-`FAISS` `BGE` `Gemini 2.5` `BM25` `Streamlit`
+`Microsoft Agent Framework` `MCP` `Azure OpenAI` `RAG` `Streamlit`
 
-[![GitHub](https://img.shields.io/badge/GitHub-View-181717?style=flat-square&logo=github)](https://github.com/GodVilan/arXiv-rag)
+[![GitHub](https://img.shields.io/badge/GitHub-View-181717?style=flat-square&logo=github)](https://github.com/GodVilan/TalentFabric-AI)
+[![Demo](https://img.shields.io/badge/Demo-YouTube-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/Vq-X2NIaruo)
 
 </td>
 <td width="50%">
 
-### 🛡️ Real-Time Fraud Detection
-Production MLOps system — CI/CD, MLflow Registry, FastAPI on AWS EC2. **ROC-AUC 1.000**.
+### 🛰️ Multi-Modal Evidence Review
+Two-stage **VLM agent** for insurance-claim adjudication, **injection-safe by design** (7/8 attacks blocked). Ranked **16 / 1,773 — Top 1%** at HackerRank Orchestrate. **95% valid-image accuracy** at **~$0.017/claim**.
 
-`XGBoost` `MLflow` `Docker` `AWS` `GitHub Actions`
+`Claude Sonnet 4.6` `VLM` `Prompt Engineering` `Eval-Driven Dev`
+
+[![GitHub](https://img.shields.io/badge/GitHub-View-181717?style=flat-square&logo=github)](https://github.com/GodVilan/HackerRank-Orchestrate-June-2026)
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
+### 🔍 arXiv Agent — ReAct Research Partner
+Cognitive ML research agent: multi-hop ReAct planning, **layout-aware RAG**, adversarial double-blind peer review, recursive citation tracing. **MRR@5 0.990** — 7.3× answer relevance over BM25.
+
+`ReAct` `FAISS` `BGE` `Gemini` `SQLite`
+
+[![GitHub](https://img.shields.io/badge/GitHub-View-181717?style=flat-square&logo=github)](https://github.com/GodVilan/arXiv-agent)
+
+</td>
+<td width="50%">
+
+### 🛡️ Real-Time Fraud Detection (MLOps)
+Production MLOps system — automated **CI/CD retraining**, **MLflow Model Registry**, Dockerized **FastAPI on AWS EC2** behind Nginx, with `/predict` + `/predict-batch` and SMOTE-handled class imbalance.
+
+`MLflow` `FastAPI` `Docker` `AWS` `GitHub Actions` `XGBoost`
 
 [![GitHub](https://img.shields.io/badge/GitHub-View-181717?style=flat-square&logo=github)](https://github.com/GodVilan/Real-Time-CCFDS-With-MLOPs)
 
@@ -63,38 +88,28 @@ Production MLOps system — CI/CD, MLflow Registry, FastAPI on AWS EC2. **ROC-AU
 <tr>
 <td width="50%">
 
+### 🦠 US COVID-19 Mortality Forecasting &nbsp; [![Live](https://img.shields.io/badge/Live-Dashboard-00e5a0?style=flat-square&logo=render)](https://us-covid-19-mortality-intelligence.onrender.com/)
+SARIMAX vs Prophet vs XGBoost on 3,300+ records. **Holdout MAE 138.14 ≈ CV MAE 137.86** — near-zero overfitting. Plotly Dash dashboard on Render.
+
+`SARIMAX` `Prophet` `XGBoost` `Plotly Dash` `Docker`
+
+[![GitHub](https://img.shields.io/badge/GitHub-View-181717?style=flat-square&logo=github)](https://github.com/GodVilan/US-COVID-19-Mortality-Intelligence-Forecasting-System)
+
+</td>
+<td width="50%">
+
 ### 🎭 Multimodal Emotion Recognition
-BERT + Wav2Vec2 + ViT cross-modal fusion. **Weighted F1: 60.66%** on 7-class MELD dataset.
+BERT + Wav2Vec2 + ViT cross-modal **Transformer fusion** (4 layers, 8 heads). **Weighted F1 60.66%** on 7-class MELD, class-weighted loss for imbalance.
 
 `PyTorch` `BERT` `Wav2Vec2` `ViT` `HuggingFace`
 
 [![GitHub](https://img.shields.io/badge/GitHub-View-181717?style=flat-square&logo=github)](https://github.com/GodVilan/Multimodal-Emotion-Recognition-MELD-via-Cross-Modal-Transformers)
 
 </td>
-<td width="50%">
-
-### 📰 Fake News Detection
-TF-IDF vs DistilBERT on **62K+ articles** with dynamic F1-threshold tuning and live NewsAPI.
-
-`DistilBERT` `TF-IDF` `PyTorch` `Streamlit` `NLTK`
-
-[![GitHub](https://img.shields.io/badge/GitHub-View-181717?style=flat-square&logo=github)](https://github.com/GodVilan/Fake-News-Detection-Using-TF-IDF-Logistic-Regression-and-DistilBERT-Transformer-Models)
-
-</td>
-</tr>
-<tr>
-<td colspan="2">
-
-### 🦠 US COVID-19 Mortality Forecasting &nbsp;&nbsp; [![Live](https://img.shields.io/badge/Live-Dashboard-00e5a0?style=flat-square&logo=render)](https://us-covid-19-mortality-intelligence.onrender.com/)
-SARIMAX vs Prophet vs XGBoost on 3,300+ records. **Holdout MAE 138.14 ≈ CV MAE 137.86** — near-zero overfitting. Plotly Dash dashboard deployed on Render.
-
-`SARIMAX` `Prophet` `XGBoost` `Plotly Dash` `Docker` `Render`
-
-[![GitHub](https://img.shields.io/badge/GitHub-View-181717?style=flat-square&logo=github)](https://github.com/GodVilan/US-COVID-19-Mortality-Intelligence-Forecasting-System)
-
-</td>
 </tr>
 </table>
+
+<sub>**Also on the bench:** 📰 [Fake News Detection](https://github.com/GodVilan/Fake-News-Detection-Using-TF-IDF-Logistic-Regression-and-DistilBERT-Transformer-Models) — TF-IDF vs DistilBERT on 62K+ articles with dynamic F1-threshold tuning · 📊 [arXiv RAG Benchmark](https://github.com/GodVilan/arXiv-rag) — empirical study of 4 retrievers × 3 chunk sizes over 150 papers</sub>
 
 ---
 
@@ -110,6 +125,14 @@ SARIMAX vs Prophet vs XGBoost on 3,300+ records. **Holdout MAE 138.14 ≈ CV MAE
 ![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
 ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white)
 
+**Agents & LLM Systems**
+
+![Microsoft Agent Framework](https://img.shields.io/badge/Microsoft%20Agent%20Framework-0078D4?style=flat-square&logo=microsoft&logoColor=white)
+![MCP](https://img.shields.io/badge/MCP-5C2D91?style=flat-square&logoColor=white)
+![ReAct](https://img.shields.io/badge/ReAct%20Agents-a855f7?style=flat-square&logoColor=white)
+![RAG](https://img.shields.io/badge/RAG%20Pipelines-00d4ff?style=flat-square&logoColor=white)
+![FAISS](https://img.shields.io/badge/FAISS-0078D4?style=flat-square&logoColor=white)
+
 **ML & Deep Learning**
 
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
@@ -118,16 +141,10 @@ SARIMAX vs Prophet vs XGBoost on 3,300+ records. **Holdout MAE 138.14 ≈ CV MAE
 ![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)
 ![XGBoost](https://img.shields.io/badge/XGBoost-FF6600?style=flat-square&logoColor=white)
 
-**Generative AI & RAG**
-
-![LLMs](https://img.shields.io/badge/LLMs-a855f7?style=flat-square&logoColor=white)
-![RAG](https://img.shields.io/badge/RAG%20Pipelines-00d4ff?style=flat-square&logoColor=white)
-![FAISS](https://img.shields.io/badge/FAISS-0078D4?style=flat-square&logoColor=white)
-![Gemini](https://img.shields.io/badge/Gemini%20API-4285F4?style=flat-square&logo=google&logoColor=white)
-
 **Cloud & MLOps**
 
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white)
+![Azure OpenAI](https://img.shields.io/badge/Azure%20OpenAI-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
 ![MLflow](https://img.shields.io/badge/MLflow-0194E2?style=flat-square&logo=mlflow&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
@@ -159,21 +176,23 @@ SARIMAX vs Prophet vs XGBoost on 3,300+ records. **Holdout MAE 138.14 ≈ CV MAE
 | Award | Details |
 |---|---|
 | 🥇 **Graduate Student Achievement Award 2025–2026** | University of Central Missouri Graduate Studies — *Recognized for exceptional scholastic achievement, exemplary contributions to Data Science & AI, and outstanding character and leadership* |
+| 🏅 **HackerRank Orchestrate — Top 1%** | Ranked **16 / 1,773** · 24-hour AI agent hackathon (June 2026) |
 | 🥇 **Global Rank 1** | CodeChef May Long Two — Division 4 Rated |
 | 🏆 **National Finalist** | IICC Coding Competition — Top 1% of 100,000+ participants |
 | 🥉 **Bronze Medal** | Ranked Top 3 in B.Tech Academic Program |
 | ⭐ **5★ HackerRank** | Data Structures & Algorithms |
 | 🔥 **255-Day Streak** | GeeksforGeeks Problem of the Day |
-| 🎖️ **District Rank 4** | SAST Olympiad |
 
 ---
 
-## 🎓 Education
+## 🎓 Education & Certifications
 
 | Degree | Institution | GPA |
 |---|---|---|
 | **M.S. Data Science & AI** *(2024–2026)* | University of Central Missouri | **4.0 / 4.0** |
 | **B.Tech CSE (Hons.)** *(2020–2024)* | CMR College of Engineering & Technology | **9.06 / 10.0** |
+
+**Certifications:** Microsoft Applied Skills — Developing Agents in Microsoft Foundry · Anthropic — Model Context Protocol · Anthropic — AI Fluency · AWS Academy — Data Analytics & Cloud Foundations · Google Data Analytics
 
 ---
 
@@ -181,7 +200,7 @@ SARIMAX vs Prophet vs XGBoost on 3,300+ records. **Holdout MAE 138.14 ≈ CV MAE
 
 <div align="center">
 
-I'm actively seeking **full-time & internship roles** in Data Science, ML Engineering, and Applied AI in the **United States** — available immediately.
+I'm actively seeking **full-time Applied AI / LLM Engineer & ML Engineer roles** in the **United States** — available immediately.
 
 [![Portfolio](https://img.shields.io/badge/🌐%20Portfolio-srikanthreddynandireddy.me-00d4ff?style=for-the-badge)](https://srikanthreddynandireddy.me)
 [![LinkedIn](https://img.shields.io/badge/💼%20LinkedIn-Connect-0077B5?style=for-the-badge)](https://www.linkedin.com/in/srikanth-reddy-nandireddy)
