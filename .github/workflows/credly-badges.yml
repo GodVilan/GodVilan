@@ -1,0 +1,20 @@
+name: Update Credly Badges
+
+on:
+  schedule:
+    - cron: "0 2 * * *"   # daily at 02:00 UTC
+  workflow_dispatch:        # manual trigger
+
+permissions:
+  contents: write
+
+jobs:
+  update-readme:
+    name: Update README with Credly badges
+    runs-on: ubuntu-latest
+    steps:
+      - name: Badges - Readme
+        uses: pemtajo/badge-readme@main
+        with:
+          CREDLY_USER: srikanth-reddy-nandireddy
+          NUMBER_LAST_BADGES: 0   # 0 = show all badges
