@@ -16,5 +16,5 @@ jobs:
       - name: Badges - Readme
         uses: pemtajo/badge-readme@main
         with:
-          CREDLY_USER: srikanth-reddy-nandireddy
+          CREDLY_USER: srikanth-reddy-nandireddy.a6a06945
           NUMBER_LAST_BADGES: 0   # 0 = show all badges
