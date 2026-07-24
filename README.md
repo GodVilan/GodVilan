@@ -1,9 +1,12 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Srikanth%20Reddy%20Nandireddy&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32&desc=Applied%20AI%20%2F%20LLM%20Engineer%20%C2%B7%20Multi-Agent%20Systems%20%C2%B7%20MLOps&descAlignY=55&descSize=18" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=160&section=header&animation=twinkling" width="100%"/>
+
+<a href="https://srikanthreddynandireddy.me"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=30&duration=3200&pause=900&color=A855F7&center=true&vCenter=true&width=900&height=60&lines=Hey!+%F0%9F%91%8B+I%27m+Srikanth+Reddy+Nandireddy;Applied+AI+%2F+LLM+Engineer;Multi-Agent+Systems+%C2%B7+RAG+%C2%B7+MLOps" alt="Hey! I'm Srikanth Reddy Nandireddy"/></a>
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-srikanthreddynandireddy.me-00d4ff?style=for-the-badge&logo=google-chrome&logoColor=white)](https://srikanthreddynandireddy.me)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/srikanth-reddy-nandireddy)
+[![Kaggle](https://img.shields.io/badge/Kaggle-godvillain24-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white)](https://www.kaggle.com/godvillain24)
 [![Medium](https://img.shields.io/badge/Medium-Follow-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://srikanth2314.medium.com/)
 [![Email](https://img.shields.io/badge/Email-Hire%20Me-00e5a0?style=for-the-badge&logo=gmail&logoColor=white)](mailto:srikanthreddynandireddy@gmail.com)
 [![Status](https://img.shields.io/badge/Status-Open%20to%20Work-00e5a0?style=for-the-badge&logoColor=white)](https://srikanthreddynandireddy.me#contact)
@@ -23,7 +26,7 @@ profile = {
     "location"     : "United States",
     "open_to_work" : True,
     "available"    : "Immediately",
-    "focus"        : ["Multi-Agent Orchestration", "LLM/RAG Systems", "MLOps"],
+    "focus"        : ["Multi-Agent Orchestration", "LLM/RAG Systems", "Agent Safety", "MLOps"],
     "frameworks"   : ["Microsoft Agent Framework", "MCP", "ReAct", "FastAPI"],
     "recent_win"   : "HackerRank Orchestrate — 16 / 1,773 (Top 1%)",
     "portfolio"    : "https://srikanthreddynandireddy.me",
@@ -41,7 +44,7 @@ from notebook to a live `/predict` endpoint you can hit with `curl`.
 
 <table>
 <tr>
-<td width="50%">
+<td width="50%" valign="top">
 
 ### 🧠 TalentFabric AI
 **5-agent** Microsoft Agent Framework system — Planner-Executor + **Critic/Verifier loop-back** that flips *Not Ready → Ready*, MCP-grounded citations, all three Microsoft IQ layers. **1.0 readiness/risk accuracy** on the ground-truth set.
@@ -52,7 +55,7 @@ from notebook to a live `/predict` endpoint you can hit with `curl`.
 [![Demo](https://img.shields.io/badge/Demo-YouTube-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/Vq-X2NIaruo)
 
 </td>
-<td width="50%">
+<td width="50%" valign="top">
 
 ### 🛰️ Multi-Modal Evidence Review
 Two-stage **VLM agent** for insurance-claim adjudication, **injection-safe by design** (7/8 attacks blocked). Ranked **16 / 1,773 — Top 1%** at HackerRank Orchestrate. **95% valid-image accuracy** at **~$0.017/claim**.
@@ -64,7 +67,18 @@ Two-stage **VLM agent** for insurance-claim adjudication, **injection-safe by de
 </td>
 </tr>
 <tr>
-<td width="50%">
+<td width="50%" valign="top">
+
+### 💊 MedsGuard Agent
+LLM medication-logging agent with a **deterministic safety spine** — the model is load-bearing at exactly two edges, everything between is deterministic Python. Writes are gated by a **single-use signed JWT** (unique JTI, 300s TTL, subject binding), so a compromised model *provably* cannot log an off-schedule dose.
+
+`MCP` `Gemini 3.1 Pro` `HMAC + JWT` `SQLite` `HITL`
+
+[![GitHub](https://img.shields.io/badge/GitHub-View-181717?style=flat-square&logo=github)](https://github.com/GodVilan/medsguard-agent)
+[![Writeup](https://img.shields.io/badge/Writeup-Kaggle-20BEFF?style=flat-square&logo=kaggle&logoColor=white)](https://kaggle.com/competitions/vibecoding-agents-capstone-project/writeups/medsguard-an-llm-driven-medication-agent-with-a-d)
+
+</td>
+<td width="50%" valign="top">
 
 ### 🔍 arXiv Agent — ReAct Research Partner
 Cognitive ML research agent: multi-hop ReAct planning, **layout-aware RAG**, adversarial double-blind peer review, recursive citation tracing. **MRR@5 0.990** — 7.3× answer relevance over BM25.
@@ -74,7 +88,9 @@ Cognitive ML research agent: multi-hop ReAct planning, **layout-aware RAG**, adv
 [![GitHub](https://img.shields.io/badge/GitHub-View-181717?style=flat-square&logo=github)](https://github.com/GodVilan/arXiv-agent)
 
 </td>
-<td width="50%">
+</tr>
+<tr>
+<td width="50%" valign="top">
 
 ### 🛡️ Real-Time Fraud Detection (MLOps)
 Production MLOps system — automated **CI/CD retraining**, **MLflow Model Registry**, Dockerized **FastAPI on AWS EC2** behind Nginx, with `/predict` + `/predict-batch` and SMOTE-handled class imbalance.
@@ -84,9 +100,7 @@ Production MLOps system — automated **CI/CD retraining**, **MLflow Model Regis
 [![GitHub](https://img.shields.io/badge/GitHub-View-181717?style=flat-square&logo=github)](https://github.com/GodVilan/Real-Time-CCFDS-With-MLOPs)
 
 </td>
-</tr>
-<tr>
-<td width="50%">
+<td width="50%" valign="top">
 
 ### 🦠 US COVID-19 Mortality Forecasting &nbsp; [![Live](https://img.shields.io/badge/Live-Dashboard-00e5a0?style=flat-square&logo=render)](https://us-covid-19-mortality-intelligence.onrender.com/)
 SARIMAX vs Prophet vs XGBoost on 3,300+ records. **Holdout MAE 138.14 ≈ CV MAE 137.86** — near-zero overfitting. Plotly Dash dashboard on Render.
@@ -96,7 +110,9 @@ SARIMAX vs Prophet vs XGBoost on 3,300+ records. **Holdout MAE 138.14 ≈ CV MAE
 [![GitHub](https://img.shields.io/badge/GitHub-View-181717?style=flat-square&logo=github)](https://github.com/GodVilan/US-COVID-19-Mortality-Intelligence-Forecasting-System)
 
 </td>
-<td width="50%">
+</tr>
+<tr>
+<td width="50%" valign="top">
 
 ### 🎭 Multimodal Emotion Recognition
 BERT + Wav2Vec2 + ViT cross-modal **Transformer fusion** (4 layers, 8 heads). **Weighted F1 60.66%** on 7-class MELD, class-weighted loss for imbalance.
@@ -106,10 +122,20 @@ BERT + Wav2Vec2 + ViT cross-modal **Transformer fusion** (4 layers, 8 heads). **
 [![GitHub](https://img.shields.io/badge/GitHub-View-181717?style=flat-square&logo=github)](https://github.com/GodVilan/Multimodal-Emotion-Recognition-MELD-via-Cross-Modal-Transformers)
 
 </td>
+<td width="50%" valign="top">
+
+### 📰 Fake News Detection
+TF-IDF + Logistic Regression vs **DistilBERT** on 62K+ articles, with dynamic F1-threshold tuning to trade precision against recall.
+
+`DistilBERT` `TF-IDF` `Scikit-learn` `HuggingFace`
+
+[![GitHub](https://img.shields.io/badge/GitHub-View-181717?style=flat-square&logo=github)](https://github.com/GodVilan/Fake-News-Detection-Using-TF-IDF-Logistic-Regression-and-DistilBERT-Transformer-Models)
+
+</td>
 </tr>
 </table>
 
-<sub>**Also on the bench:** 📰 [Fake News Detection](https://github.com/GodVilan/Fake-News-Detection-Using-TF-IDF-Logistic-Regression-and-DistilBERT-Transformer-Models) — TF-IDF vs DistilBERT on 62K+ articles with dynamic F1-threshold tuning · 📊 [arXiv RAG Benchmark](https://github.com/GodVilan/arXiv-rag) — empirical study of 4 retrievers × 3 chunk sizes over 150 papers</sub>
+<sub>**Also on the bench:** 📊 [arXiv RAG Benchmark](https://github.com/GodVilan/arXiv-rag) — empirical study of 4 retrievers × 3 chunk sizes over 150 papers</sub>
 
 ---
 
@@ -169,6 +195,12 @@ BERT + Wav2Vec2 + ViT cross-modal **Transformer fusion** (4 layers, 8 heads). **
 
 </div>
 
+<div align="center">
+
+<img width="98%" src="https://github-readme-activity-graph.vercel.app/graph?username=GodVilan&bg_color=030912&color=ddeeff&line=a855f7&point=00e5a0&area=true&area_color=00d4ff&title_color=00d4ff&hide_border=true&custom_title=Contribution%20Graph" />
+
+</div>
+
 ---
 
 ## 🏆 Honors & Achievements
@@ -214,6 +246,7 @@ I'm actively seeking **full-time Applied AI / LLM Engineer & ML Engineer roles**
 
 [![Portfolio](https://img.shields.io/badge/🌐%20Portfolio-srikanthreddynandireddy.me-00d4ff?style=for-the-badge)](https://srikanthreddynandireddy.me)
 [![LinkedIn](https://img.shields.io/badge/💼%20LinkedIn-Connect-0077B5?style=for-the-badge)](https://www.linkedin.com/in/srikanth-reddy-nandireddy)
+[![Kaggle](https://img.shields.io/badge/📊%20Kaggle-godvillain24-20BEFF?style=for-the-badge)](https://www.kaggle.com/godvillain24)
 [![Medium](https://img.shields.io/badge/✍️%20Medium-Read%20Articles-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://srikanth2314.medium.com/)
 [![Email](https://img.shields.io/badge/✉️%20Email-srikanthreddynandireddy@gmail.com-00e5a0?style=for-the-badge)](mailto:srikanthreddynandireddy@gmail.com)
 
